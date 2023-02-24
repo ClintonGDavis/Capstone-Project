@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/summary_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Summary"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="25dp"/>
+
+    <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/summary_title"
+            android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+            android:id="@+id/summary_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider"
+            android:orientation="vertical"
+            android:padding="45dp">
+
+        <TextView
+                android:id="@+id/love_standard_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Love Standard: [love_standard]"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:id="@+id/love_score_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Love Score: [love_score]"
+                android:textSize="16sp"/>
+
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+        <TextView
+                android:id="@+id/work_standard_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Work Standard: [work_standard]"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:id="@+id/work_score_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Work Score: [work_score]"
+                android:textSize="16sp"/>
+
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+        <TextView
+                android:id="@+id/learning_standard_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Learning Standard: [learning_standard]"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:id="@+id/learning_score_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Learning Score: [learning_score]"
+                android:textSize="16sp"/>
+
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+        <TextView
+                android:id="@+id/play_standard_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Play Standard: [play_standard]"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:id="@+id/play_score_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Play Score: [play_score]"
+                android:textSize="16sp"/>
+
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+        <TextView
+                android:id="@+id/health_standard_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Health Standard: [health_standard]"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:id="@+id/health_score_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Safety Score: [safety_score]"
+                android:textSize="16sp"/>
+
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+        <TextView
+                android:id="@+id/safety_standard_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Safety Standard: [safety_standard]"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:id="@+id/safety_score_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Safety Score: [safety_score]"
+                android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

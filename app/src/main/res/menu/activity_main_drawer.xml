@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Categories">
+            <menu>
+                <item
+                        android:id="@+id/nav_Love"
+                        android:icon="@drawable/ic_menu_send"
+                        android:title="Love"/>
+                <item
+                        android:id="@+id/nav_Work"
+                        android:icon="@drawable/ic_menu_send"
+                        android:title="Work"/>
+                <item
+                        android:id="@+id/nav_Learning"
+                        android:icon="@drawable/ic_menu_send"
+                        android:title="Learning"/>
+                <item
+                        android:id="@+id/nav_Play"
+                        android:icon="@drawable/ic_menu_send"
+                        android:title="Play"/>
+                <item
+                        android:id="@+id/nav_Health"
+                        android:icon="@drawable/ic_menu_send"
+                        android:title="Health"/>
+                <item
+                        android:id="@+id/nav_Safety"
+                        android:icon="@drawable/ic_menu_send"
+                        android:title="Safety"/>
+            </menu>
+        </item>
+
+    </group>
+
+    <item android:title="Menu">
+        <menu>
+            <item
+                    android:id="@+id/nav_Main"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Main"/>
+            <item
+                    android:id="@+id/nav_Summary"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Summary"/>
+        </menu>
+    </item>
+
+</menu>
